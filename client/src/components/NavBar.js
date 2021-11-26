@@ -3,7 +3,7 @@ import { Context } from "../index";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
-import { ADMIN_ROUTE, LOGIN_ROUTE, SHOP_ROUTE } from "../utils/consts";
+import { ADMIN_ROUTE, LOGIN_ROUTE, SHOP_ROUTE, HOME_ROUTE } from "../utils/consts";
 
 import { observer } from "mobx-react-lite";
 import { useHistory } from "react-router-dom";
@@ -50,7 +50,7 @@ const NavBar = observer(() => {
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 <NavLink
                   style={{ "text-decoration": "none", color: "white" }}
-                  to={SHOP_ROUTE}
+                  to={HOME_ROUTE}
                 >
                   <ClearAllIcon sx={{ verticalAlign: "text-top" }} />{" "}
                   Fast-accs.com
