@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Auth(props) {
+const Basket = () => {
     return (
         <div>
-            Auth
+            basket
         </div>
     );
-}
+};
 
-export default Auth;
+export default Basket;
